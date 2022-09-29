@@ -1,0 +1,10 @@
+
+export const GET_PRODUCTS = 'GET_PRODUCTS'
+export const CREATE_PRODUCT = 'CREATE_PRODUCT'
+export const UPDATE_PRODUCT_BY_ID = 'UPDATE_PRODUCT_BY_ID'
+export const DELETE_PRODUCT_BY_ID = 'DELETE_PRODUCT_BY_ID'
+
+export const SUCCESS = 'SUCCESS'
+export const FAILURE = 'FAILURE'
+
+

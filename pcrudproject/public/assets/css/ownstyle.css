@@ -1,0 +1,447 @@
+/* .adminBody {
+  overflow-y: scroll;
+  opacity: 1 !important;
+  height: 100% !important;
+  -webkit-text-size-adjust: 100% !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  background-color: var(--bs-body-bg) !important;
+  color: var(--bs-body-color) !important;
+  font-family: var(--bs-body-font-family) !important;
+  font-size: var(--bs-body-font-size) !important;
+  font-weight: var(--bs-body-font-weight) !important;
+  line-height: var(--bs-body-line-height) !important;
+  margin: 0 !important;
+  text-align: var(--bs-body-text-align) !important;
+  display: block !important;
+} */
+
+/* .mainSign {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg");
+  position: relative;
+  background-color: rgba(0,0,0, 0.4);
+  z-index: 2;
+} */
+.myon{
+  position: absolute;
+  top: 6px;
+    right: 19px;
+}
+.wrapper:before {
+  background: #F4F7FC;
+  content: " ";
+  height: 264px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.containerSign {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #ffffff; */
+}
+
+.bg-image {
+  background-image: url("../img/photos/max-delsid-8I6OcgjAOGg-unsplash.jpg");
+/* 
+  filter: blur(3px);
+  -webkit-filter: blur(3px); */
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-imagee {
+  background-image: url("../img/photos/Picture1.png");
+/* 
+  filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+.cardNewBg{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+}
+
+.inputcontolNew{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+}
+
+.form-control:valid{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  border: 3px solid #f1f1f1;
+  color: rgb(255, 255, 255)
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: 0 0 0 30px rgba(0,0,0, 0.6) inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: rgb(255, 255, 255) !important;
+} */
+
+.header-all {
+  margin-bottom: 1.8rem !important;
+  /* background-color: #fbfafa36;
+    padding: 0yesha123;
+    padding: 10 9 2 10;
+    border-radius: 5px 5px 3px 3px;
+    margin-bottom: 0.8rem !important; */
+}
+
+.add-button {
+  float: right;
+  background-color: #ffffff !important;
+  color: #000 !important;
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+
+.deleteBtn {
+  color: #dc3545 !important;
+  border: 0 !important;
+  background-color: #f1f1f100 !important;
+}
+
+/* .editBtn{
+  color: #355cdc!important;
+  border: 0!important;
+  background-color: #f1f1f100!important;
+} */
+
+.deleteBtn:hover {
+  color: #228b22 !important;
+}
+
+.editBtn:hover {
+  color: #228b22 !important;
+}
+/* 
+#datatables-column-search-text-inputs_wrapper {
+  overflow-x: scroll;
+} */
+
+.form-floating > label {
+  left: auto;
+}
+
+.form-floating {
+  width: 100%;
+}
+
+.input-floating {
+  flex: 1 1 auto;
+  /* min-width: 527%; */
+  position: relative;
+  /* width: 527%; */
+}
+
+.input-group .form-control.is-invalid:focus,
+.input-group .form-select.is-invalid:focus,
+.was-validated .input-group .form-control:invalid:focus,
+.was-validated .input-group .form-select:invalid:focus {
+  z-index: 0;
+}
+
+.input-group .form-control.is-invalid,
+.input-group .form-select.is-invalid,
+.was-validated .input-group .form-control:invalid,
+.was-validated .input-group .form-select:invalid {
+  z-index: 0;
+}
+
+.input-group {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  /* min-width: 250%;
+  width:auto; */
+}
+
+.input-group-Photo {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  /* min-width: 527%;
+  width:auto; */
+}
+
+.input-floating-Photo {
+  padding-bottom: 1.925rem !important;
+  padding-top: 1.925rem !important;
+  /* width: 349%; */
+}
+
+.tableRowData {
+  table-layout: fixed;
+}
+
+@media (min-width: 1440px) {
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    width: 98%;
+  }
+
+  .displayTD {
+    min-width: 300px !important;
+  }
+}
+
+/* .cssTable {
+  overflow: scroll;
+} */
+
+.bg-image1 {
+  background-image: url("assets/img/products/product-1-min.html");
+}
+
+.css-11mde6h-MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  display: flex;
+  min-height: 52px;
+  align-items: baseline !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: grid !important;
+}
+
+.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+  text-transform: capitalize !important;
+}
+
+.icon-lg {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.cardProdctList {
+  padding-top: 0.5rem !important;
+  padding-right: 1.5rem !important;
+  padding-bottom: 0.8rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.cardProdctBody {
+  padding: 0rem !important;
+}
+
+.rainbowColor {
+  background-color: red !important;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ) !important;
+}
+
+.come-from-modal.fade:not(.in).right .modal-dialog {
+  width: 350px;
+  -webkit-transform: translate3d(170%, 0, 0) !important;
+  transform: translate3d(170%, 0, 0) !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.come-from-modal.fade:not(.in).right .modal-content {
+  height: 100vh;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex: 0 0 22.3333%;
+  margin: 5px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 280px) {
+  .mediaPhotoHW {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .css-1t29gy6-MuiToolbar-root {
+    padding-left: 18px !important;
+    padding-right: 24px;
+  }
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+} */
+
+/* ::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d; 
+} */
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #90a4ae;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+body::-webkit-scrollbar-thumb:window-inactive {
+  display: none;
+}
+
+.tss-1t6h0i4-MUIDataTableToolbar-titleRoot h6{
+  color: #3e4676 !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: #3e4676 !important;
+}
+
+.tss-1akey0g-MUIDataTableHeadCell-data{
+  color: #3e4676 !important;
+
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  color: #3e4676 !important;
+
+}
+
+.css-16epbcf-MuiTypography-root{
+  color: #3e4676 !important;
+
+}
+
+.css-1le28he-MuiInputBase-root{
+  color: #3e4676 !important;
+
+}
+
+.css-jtlhu6-MuiTablePagination-root{
+  color: #3e4676 !important;
+
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input{
+  color: #3e4676 !important;
+
+}
+
+.css-jtlhu6-MuiTablePagination-root{
+  color: #3e4676 !important;
+
+}
+
+.css-16epbcf-MuiTypography-root{
+  margin-bottom: 12px !important;
+}
+
+.css-1le28he-MuiInputBase-root{
+  margin-bottom: 10px !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 1145;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  color: #3e4676;
+}
+
+.summernoteHeight{
+  min-height: 200px;
+  border: 1px solid #f0d8d8;
+  padding: 10px;
+}
+
+.sidebar-item-ul{
+  overflow-x: hidden;
+  overflow-y: auto;
+  list-style-type: none;
+  padding-left: 0rem;
+  max-height: calc(100px * 3);
+}
+
+.sidebar-brandd1{
+  background: #153d77;
+  color: #fff;
+  display: block;
+  font-size: 1.175rem;
+  font-weight: 500;
+  padding: 1rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* li.sidebar-item>.active{
+  background: #153d769c;
+} */
+
+.css-2m9kme-MuiFormControl-root {
+  margin: 0 !important;
+  width: 1144px !important;
+}
+
+.icon-shapeNew{
+    width: 48px !important;
+    height: 48px !important;
+}
+
+
+.colorbtn button:focus:not(:focus-visible) {
+  outline: 0;
+}
